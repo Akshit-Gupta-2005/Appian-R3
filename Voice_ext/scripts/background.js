@@ -202,7 +202,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                   messages: [
                     {
                       role: "system",
-                      content: "You are a helpful assistant. Use only the information provided to answer."
+                      content: "You are a helpful assistant."
                     },
                     {
                       role: "user",
