@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Navigator</title>
+  <script src="popup.js" defer></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 15px;
+      margin: 0;
+      background-color: #f4f4f4;
+      min-width: 220px;
+    }
+
+    h1 {
+      font-size: 1.2em;
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    .button-group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+
+    button {
+      padding: 10px;
+      font-size: 14px;
+      border: none;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    select {
+      padding: 8px;
+      font-size: 14px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>ReadEase</h1>
+
+  <div class="button-group">
+    <button id="enableInputButton"> AI Voice Navigator</button>
+    <button id="toggleSpeech"> Start/Stop Listening</button>
+    <button id="toggleDyslexia"> Dyslexia Mode</button>
+    <button id="toggleHoverReader">Hover Reader</button>
+  </div>
+
+  <label for="contrastMode"><strong>Contrast Mode</strong></label><br />
+  <select id="contrastMode">
+    <option value="off">Off</option>
+    <option value="whiteOnBlack">White on Black</option>
+    <option value="yellowOnBlack">Yellow on Black</option>
+  </select>
+</body>
+</html>

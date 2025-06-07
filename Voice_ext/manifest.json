@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "NaviVoice: Voice Input Productivity Assistant",
+  "short_name": "NaviVoice",
+  "description": "Surf the web with just your voice!",
+  "version": "2.5",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://*/",
+    "https://*/" 
+    ],
+  "background": {
+    "service_worker": "scripts/background.js"
+  },
+    "web_accessible_resources": [
+  { 
+    "resources": ["voice.html", "voice.js","fonts/OpenDyslexic-Regular.ttf",
+        "fonts/OpenDyslexic-Bold.ttf",
+        "fonts/OpenDyslexic-Italic.ttf",
+        "fonts/OpenDyslexic-BoldItalic.ttf"],
+    "matches": ["<all_urls>"]
+  }
+],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": [ "scripts/content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

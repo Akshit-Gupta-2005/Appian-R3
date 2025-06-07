@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NaviVoice</title>
+  <script src="voice.js" defer></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      font-size: 18px;
+      background-color: #2b2b2b; /* greyish background */
+      color: #ffffff; /* white text */
+      line-height: 1.6;
+    }
+
+    a.close-link {
+      display: inline-block;
+      margin: 20px 0;
+      color: #66bfff;
+      text-decoration: underline;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 30px;
+      margin-bottom: 15px;
+      color: #ffffff;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 16px; /* increased spacing between lines */
+    }
+
+    strong {
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <h1>ReadEase AI Web Navigator</h1>
+  <a class="close-link" id="closeTabLink">Close this tab - stops navigator</a>
+
+  <h2>Available Voice Commands</h2>
+  <ul>
+    <li><strong>chrome your_query</strong> - Asks Groq the query in relation to the webpage (e.g., "chrome what is on the page")</li>
+    <li><strong>new tab</strong> - Open a new tab</li>
+    <li><strong>close tab</strong> - Close the current tab</li>
+    <li><strong>reload tab</strong> - Reload the current tab</li>
+    <li><strong>next tab</strong> - Go to the next tab</li>
+    <li><strong>previous tab</strong> - Go to the previous tab</li>
+    <li><strong>go to tab [number]</strong> - Switch to a specific tab (e.g., "go to tab 3")</li>
+
+    <li><strong>go back</strong> - Go back in browsing history</li>
+    <li><strong>go forward</strong> - Go forward in browsing history</li>
+    <li><strong>go to example.com</strong> - Navigate to a specific site</li>
+
+    <li><strong>extensions</strong> - Open Chrome Extensions page</li>
+    <li><strong>history</strong> - Open Chrome History</li>
+    <li><strong>downloads</strong> - Open Chrome Downloads</li>
+
+    <li><strong>scroll down</strong> - Scroll the page down</li>
+    <li><strong>scroll up</strong> - Scroll the page up</li>
+
+    <li><strong>google [query]</strong> - Search Google (e.g., "google OpenAI")</li>
+    <li><strong>search [query]</strong> - Fill in a search field on the page</li>
+    <li><strong>submit/enter</strong> - Submit the first form on the page</li>
+
+    <li><strong>play video</strong> - Play a video on the page</li>
+
+    <li><strong>stop listening</strong> - Stop Voice Navigator</li>
+    <li><strong>close chrome</strong> - Close the entire Chrome window</li>
+  </ul>
+</body>
+</html>
