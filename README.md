@@ -1,14 +1,25 @@
-# Accessibility Suite – Voice-Powered Extension & AI Web Tools
+# Accessibility Suite – Extension & website!
 
 ## Overview
 
-This project provides a **dual-solution accessibility platform** designed to make the web more inclusive and user-friendly for individuals with disabilities such as dyslexia, vision impairment, and motor limitations.
+This project provides a **dual-solution accessibility platform** designed to make the web more inclusive and user-friendly for individuals with disabilities such as dyslexia, vision impairment, blindness, and motor limitations.
 
 It consists of:
 
-1. **ReadEase** – A **Chrome Extension** for real-time voice-based navigation and web accessibility.
-2. **Web Tools** – A **web-based toolkit** offering assistive AI-powered features for content consumption and understanding.
+1. **ReadEase_ext** – A **Chrome Extension** for real-time voice-based navigation and web accessibility.
+2. **ReadEase website** – A **web-based toolkit** offering assistive AI-powered features for content consumption and understanding.
 
+---
+## Getting Started
+
+### Chrome Extension:
+1. Download the extension from - https://drive.google.com/uc?export=download&id=1T07Qo02ct654bOWOGK_r2ApDz0U3ulyZ
+2. Unzip the folder.
+3. Go to `chrome://extensions` and enable **Developer Mode**.
+4. Click **Load Unpacked** and select the `ReadEase_ext` folder.
+5. Pin the Extension for easy use
+
+### Web Platform is deployed at: https://read-ease-pro.vercel.app/
 ---
 
 ## Chrome Extension
@@ -20,11 +31,6 @@ It consists of:
 - **Accessibility Toggles** – Enable dyslexia-friendly font, dark mode, and high contrast.
 - **AI Assistant** – Ask questions or summarize current web pages using LLM integration (LLaMA3-70B).
 
-### Use Cases:
-- Hands-free browsing
-- Accessibility for users with mobility or vision impairments
-- Improved content understanding via AI Q&A
-
 ---
 
 ## Website
@@ -35,28 +41,4 @@ It consists of:
 -  **Spell Checker** – Detect and correct spelling errors in typed text.
 -  **Text to Speech** – Convert text into natural-sounding speech.
 -  **Video Summarization** – Generate AI summaries of uploaded video content.
-
-### Use Cases:
-- Make static content accessible (documents, images, videos)
-- Assist users with reading or comprehension difficulties
-- Productivity boost through content summarization
-
----
-
-## Why This Matters
-
-Most websites today are not fully WCAG-compliant or inclusive. This project **acts as a real-time and on-demand accessibility layer**, ensuring **any content, from any website**, is usable and understandable by all users — regardless of their abilities.
-
----
-
-## Getting Started
-
-### Chrome Extension:
-1. Download the extension from - https://drive.google.com/uc?export=download&id=1T07Qo02ct654bOWOGK_r2ApDz0U3ulyZ
-2. Unzip the folder.
-3. Go to `chrome://extensions` and enable **Developer Mode**.
-4. Click **Load Unpacked** and select the `ReadEase_ext` folder.
-5. Pin the Extension for easy use
-
-### Web Platform is deployed at: https://read-ease-pro.vercel.app/
 
