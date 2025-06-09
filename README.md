@@ -18,7 +18,7 @@ It consists of:
 - **Speech to Text** – Voice typing for input fields.
 - **Text to Speech on Hover** – Reads out content under the cursor.
 - **Accessibility Toggles** – Enable dyslexia-friendly font, dark mode, and high contrast.
-- **AI Assistant** – Ask questions or summarize current web pages using LLM integration (e.g., Groq API, LLaMA3).
+- **AI Assistant** – Ask questions or summarize current web pages using LLM integration (LLaMA3-70B).
 
 ### Use Cases:
 - Hands-free browsing
