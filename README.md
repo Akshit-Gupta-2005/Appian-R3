@@ -52,7 +52,7 @@ Most websites today are not fully WCAG-compliant or inclusive. This project **ac
 ## Getting Started
 
 ### Chrome Extension:
-1. Download the extension from - https://drive.google.com/uc?export=download&id=1hj9uLeCPD9dkiKclj2K7o02GwsT8nKkf
+1. Download the extension from - https://drive.google.com/uc?export=download&id=1T07Qo02ct654bOWOGK_r2ApDz0U3ulyZ
 2. Unzip the folder.
 3. Go to `chrome://extensions` and enable **Developer Mode**.
 4. Click **Load Unpacked** and select the `chrome-extension` folder.
