@@ -7,7 +7,8 @@ This project provides a **dual-solution accessibility platform** designed to mak
 It consists of:
 
 1. **ReadEase_ext** – A **Chrome Extension** for real-time voice-based navigation and web accessibility.
-2. **ReadEase website** – A **web-based toolkit** offering assistive AI-powered features for content consumption and understanding.
+2. **Eye_control** - A **python script** that can move the cursor with your eyes and click with a blink of the left eye 
+3. **ReadEase website** – A **web-based toolkit** offering assistive AI-powered features for content consumption and understanding.
 
 ---
 ## Getting Started
