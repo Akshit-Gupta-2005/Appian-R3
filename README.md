@@ -12,17 +12,17 @@ It consists of:
 ---
 ## Getting Started
 
-### Eye Control:
-1. install dependencies using `pip install opencv-python mediapipe pyautogui SpeechRecognition pyaudio pipwin` in cmd
-2. download the python script from: https://drive.google.com/uc?export=download&id=18CzaoW-MCZ_EWHI_jtxi5zcj-jSRKI83
-3. run the file, Say start to start eye tracking.
-
 ### Chrome Extension:
 1. Download the extension from - https://drive.google.com/uc?export=download&id=1T07Qo02ct654bOWOGK_r2ApDz0U3ulyZ
 2. Unzip the folder.
 3. Go to `chrome://extensions` and enable **Developer Mode**.
 4. Click **Load Unpacked** and select the `ReadEase_ext` folder.
 5. Pin the Extension for easy use
+
+### Eye Control:
+1. install dependencies using `pip install opencv-python mediapipe pyautogui SpeechRecognition pyaudio pipwin` in cmd
+2. download the python script from: https://drive.google.com/uc?export=download&id=18CzaoW-MCZ_EWHI_jtxi5zcj-jSRKI83
+3. run the file, Say start to start eye tracking.
 
 ### Web Platform is deployed at: https://read-ease-pro.vercel.app/
 ---
